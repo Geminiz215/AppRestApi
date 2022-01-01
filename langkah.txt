@@ -1,0 +1,16 @@
+1 install express-generator
+2 https://expressjs.com/en/starter/generator.html
+untuk melihat option
+3 ketik express [nama file] atau express -h [nama file]
+untuk membuat page tambahkan di index.js atau users.js
+4 copy pacage.json lalu ketik npm install di cmd untuk menginstall npm yang ada di package.json
+5 gunakan .env dengan npm dotenv untuk memasukan value ke berbagai file
+6 config data base sesuai dengan data base yang sudah di buat
+7 gunakan sequlize-cli untuk menggunakanan sequlize di cmd
+petunjuk pemakaian liat di https://www.npmjs.com/package/sequelize-cli
+8 sequelize init untuk membuat project
+npx sequelize migration:create --name create-products-tabel untuk create migration
+npx sequelize db:migrate untuk menjalankan migrate
+npx sequelize db:migrate:undo untuk mengembalikan migrate
+untuk menggunakan nodemon jalankan start yang ada di package.json
+https://sequelize.org/master/manual/model-basics.html untuk melihat tipe data
